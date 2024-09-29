@@ -1,0 +1,446 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+
+.nav{
+    background-color: #a73b05;
+    height: 400px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo{
+    background-image: url("FoodFantasy.jpeg");
+    height: 300px;
+    width: 360px;
+    border: 2px solid whitesmoke;
+    background-size: cover;
+}
+
+.navbar{
+    height: 180px;
+    background-color: #e7931d;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 3px;
+    margin-top: 0.2rem;
+}
+
+.border{
+    border: 1.2px solid transparent;
+}
+
+.border:hover{
+    border: 2px solid azure;
+}
+
+.adf{
+    color:black;
+    font-size: 0.9rem;
+    margin-left: 15px;
+}
+
+.ads{
+    font-size: 1.2rem;
+    margin-left: 3px;
+    font-weight: 700;
+}
+
+.addressicon{
+    font-size: 1.3rem;
+    display: flex;
+    align-items: center;
+}
+
+.navsearch{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #050509;
+    width: 800px;
+    height: 85px;
+    border-radius: 3px;
+}
+
+i{
+    color:#a73b05 ;
+}
+
+.navsearch:hover{
+    border:5px solid #673005;
+}
+
+.addressicon2 i{
+    font-size: 25px;
+}
+
+.addressicon2{
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.seaselect{
+    background-color: #f3f3f3;
+    width: 75px;
+    text-align: center;
+    font-size: 1.2rem;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+}
+
+.seainput{
+    width: 90%;
+    font-size: 1.3rem;
+    border: none;
+}
+
+.searchicon{
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    background-color: darkgoldenrod;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    color: #0f1111;
+}
+
+.navflag{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.flag{
+    background-image: url("ind.jpeg");
+    height: 20px;
+    width: 30px;
+    background-size: contain;
+    border: 1px solid #050509;
+}
+
+.select{
+    font-size: 1rem;
+}
+
+.bold{
+    font-weight: bolder;
+}
+
+.navreturn span{
+    font-size:0.9rem ;
+    font-weight: 500;
+
+} 
+
+.box6{
+    font-size:1.2rem ;
+    font-weight: 700;
+
+}
+.box5{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+.cart i{
+    font-size: 30px;
+    color: #554640;
+}
+
+.cart{
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+
+.panel{
+    height: 80px;
+    background-color: #a73b05;
+    display: flex;
+    color: azure;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 0.2rem;
+}
+
+.panelops{
+    width: 70%;
+    font-size: 1.1rem;
+}
+
+.panelops p{
+    display: inline;
+    margin-left: 15px;
+}
+
+.paneldeals{
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.herosection{
+    background-image: url("pizza.jpg");
+    height: 650px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-top: 0.2rem;
+}
+
+.heromsg{
+    background-color: #2660a4;
+    color: azure;
+    border-top-right-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    border-top-left-radius: 2rem;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+    width: 86%;
+    margin-bottom: 25px;
+}
+
+.heromsg:hover{
+    transition-timing-function: ease-in;
+    outline: 0.65rem solid rgb(68, 63, 63, 0.4);
+    outline-offset: 0rem ;
+}
+
+.heromsg a{
+    color: #f19953;
+    font-weight: 700;
+}
+
+.box{
+    box-shadow:0rem 1rem 0.2rem rgba(84, 80, 86, 0.8);
+    margin-bottom:2rem ;
+    outline-offset: -0.5rem ;
+    outline: 0.5rem solid #ca6b3b;
+}
+
+.box:hover{
+    outline: 0.65rem solid rgba(236, 112, 10, 0.8);
+    outline-offset: 0rem ;
+}
+
+.shopsection{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-image: url("background.jpg");
+    background-size: contain;
+    background-repeat: repeat;
+}    
+
+.box {
+    height: 400px;
+    width: 23%;
+    background-color: azure;
+    padding: 20px 0px 15px;
+    border-radius: 1.5rem;
+    margin-top: 100px;
+}
+
+.boximg{
+    height: 300px;
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 1rem;
+}
+
+.boxcont{
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+}
+
+.boxcont p{
+    color: rgba(70, 11, 11, 0.8);
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+}
+
+.footpanel1{
+    background-color: #2c2926;
+    color: azure;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+
+.footpanel2{
+    background-color: #514d4a;
+    color: rgb(245, 239, 239);
+    height: 300px; 
+    display: flex;
+    justify-content: space-evenly; 
+    font-size: 0.9rem;
+}
+
+ul{
+    margin-top: 30px;
+    font-weight: 700;
+}
+
+ul a{
+    display: block;
+    font-size: 0.7rem;
+    margin-top: 20px;
+    color: rgb(249, 247, 247);
+}
+
+.f3{
+    background-color: #2c2926;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.elogo{
+    background-image: url("FoodFantasy.jpeg");
+    background-size: cover;
+    height: 50px;
+    width: 100px;
+    border: 1px solid azure;
+}
+
+.f4{
+    background-color:  #514d4a ;
+    color: azure;
+    height: 80px;
+    font-size: 0.7rem;
+    text-align: center;
+}
+
+.pages{
+    padding-top: 25px;
+}
+
+.pages a{
+    display: inline;
+    justify-content: space-evenly;
+    margin: 15px;
+}
+
+.copyright{
+    padding-top: 5px;
+} 
+
+.flex-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.flex-child1{
+    flex: 1;
+    display: flex;
+}  
+
+.flex-child1:first-child {
+    margin-right: 20px;
+    align-items: center;
+} 
+
+.headache{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-child1{
+    height: 350px;
+    width: 33.33%;
+    display: block;
+}
+
+.flex-child1 p{
+    font-size: 2.5rem;
+    color: #050509;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+}
+
+.flex-child1 a{
+    font-size: 1rem;
+    font-weight: 600;
+    color: #050509;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.flex-child2{
+    height: 350px;
+    width: 23%;
+    background-image: url("android.webp");
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flexbox;
+    margin-top: 0px;
+}
+
+.flex-child3{
+    height: 350px;
+    width: 23%;
+    background-image: url("iPhone.webp");
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flexbox;
+    margin-bottom: 0px ;
+}
+
+.praise{
+    background-image: url("background.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 600px;
+    width: 100%;
+}
+
+.boximge{
+    height: 300px;
+    width: 350px;
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.centre{
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+}
+
+.look{
+    background-image: url("background.jpg");
+    background-size: cover;
+    height: 135px;
+    width: 100;
+}
